@@ -1,4 +1,4 @@
-# Tugas-PIBS-Repository-SIF-A-2023
+# Aplikasi-Proposal-Makrab-Prodi
 Tugas Latihan Untuk Hal-Hal Yang Berkaitan Dengan Git
 
 **Anggota Kelompok:**
