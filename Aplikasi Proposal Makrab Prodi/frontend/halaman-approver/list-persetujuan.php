@@ -4,8 +4,8 @@
 session_start();
 
 // Redirect ke halaman login jika belum login
-if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
-    header("Location: ../../frontend/halaman-admin/index.php");
+if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'approver') {
+    header("Location: ../../frontend/halaman-approver/index.php");
     exit;
 }
 
@@ -17,7 +17,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['role'] !== 'admin') {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>List Mahasiswa</title>
+        <title>List Pengesahan</title>
     </head>
 
     <body>
